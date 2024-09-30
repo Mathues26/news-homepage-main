@@ -1,0 +1,176 @@
+/* estilo geral */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    font-family: "inter", sans-serif;
+}
+
+/* cabeçalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav li{
+    margin-left: 25px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.nav a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+/* seção principal */
+ 
+
+.baner  img{
+    width: 1100px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.titulo h1{
+    color: hsl(240, 100%, 5%);
+    font-size: 65px;
+    width: 550px;
+    padding: 10px 20px 0px 20px;
+
+}
+
+.texto-1{
+    color: hsl(236, 13%, 42%);
+    font-size: 20px;
+    width: 550px;
+    padding: 10px 20px 0px 20px;
+    line-height: 1.7;
+
+ 
+}
+
+.texto{
+    display: flex;
+}
+
+.botao{
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: hsl(5, 85%, 63%);
+    transition: background-color 0.3s; 
+}
+
+.botao a{
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+
+.botao:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+/* aqui vai ser a  perte lateral do  site */
+.lateral{
+    width: 350px;
+    padding: 20px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.conteiner {
+    display: flex;
+}
+
+.lateral h2{
+    font-size: 40px;
+    color: hsl(35, 77%, 62%);
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.secao-lateral{
+    border-bottom: solid 1px hsl(36, 100%, 99%);
+    margin-top: 20px;
+    padding: 20px 0px 40px 0px;
+    line-height: 1.8;
+}
+
+.amarelo{
+    font-size: 20px;
+    color: hsl(36, 100%, 99%);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.amarelo:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.secao-lateral p{
+    color: hsl(233, 8%, 79%);
+}
+
+/* aqui começa a ultima seção do site */
+
+.final{
+    display: flex;
+    margin-top: 40px;
+}
+
+.mini-secao{
+    display: flex;
+    margin:  10px;
+}
+
+.foto{
+    width: 150px;
+    padding: 10PX;
+}
+
+
+.conteudo{
+    line-height: 1.8;
+}
+
+.conteudo H3{
+    color: hsl(5, 85%, 63%);
+    font-size: 35PX;
+}
+
+.laranja h4{
+    color: hsl(240, 100%, 5%);
+    
+}   
+
+h4:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+h4{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.conteudo p{
+    color: hsl(236, 13%, 42%);
+}
+
